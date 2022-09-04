@@ -31,7 +31,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "Fooooollowed",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "你如果想念一个人就会变成微风，轻轻掠过他的身边。就算他感觉不到，可这就是你全部的努力。人生就是这样子，每个人都变成各自想念的风。",
+      useTemplateId: "5iYGhlEXwO64KOuzTGb2lFl03liLN4wOMtj2uxrz9RM",
       // 所在省份
       province: "江苏",
       // 所在城市
