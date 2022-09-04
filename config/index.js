@@ -4,64 +4,40 @@ export const config = {
    */
 
   // 公众号APP_ID
-  APP_ID: "",
+  APP_ID: "wx6794d308464d21bf",
 
   // 公众号APP_SECRET
-  APP_SECRET: "",
+  APP_SECRET: "ae861ba8bcbb69c9ad265f27f0829afa",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
    * [
    *  {
    *    // 想要发送的人的名字
-   *    name: "老婆0",
+   *    name: "沐阳",
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-   *    id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
+   *    id: "Fooooollowed",
    *    // 你想对他发送的模板消息的模板ID
-   *    useTemplateId: "zjVglIuCXo4CsraXWEio1iP7sZJ7IQEES9lDsgc4yOU",
+   *    useTemplateId: "你如果想念一个人就会变成微风，轻轻掠过他的身边。就算他感觉不到，可这就是你全部的努力。人生就是这样子，每个人都变成各自想念的风。",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-   *    openUrl: "https://wangxinleo.cn"
+   *    openUrl: "https://pic1.zhimg.com/v2-0e5875681fabaee3e8fa7b2975d2f31b_r.jpg?source=1940ef5c"
    *   }, 
    * ]
    */
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "沐阳",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohxOO6VskY2v40Kuf5ywIZVRM3puXhk",
+      id: "Fooooollowed",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "Wue80GrtY1nAi5a4tam4FDxZF59WNx9pwcBc06LMpANnu8",
+      useTemplateId: "你如果想念一个人就会变成微风，轻轻掠过他的身边。就算他感觉不到，可这就是你全部的努力。人生就是这样子，每个人都变成各自想念的风。",
       // 所在省份
-      province: "广东",
+      province: "江苏",
       // 所在城市
-      city: "肇庆",
+      city: "句容",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://wangxinleo.cn"
-    }, 
-    {
-      name: "老婆1", 
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      openUrl: "https://wangxinleo.cn"
-    }, 
-    {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      openUrl: "https://wangxinleo.cn"
-    }, 
-    {
-      name: "老婆3", 
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      openUrl: "https://wangxinleo.cn"
+      openUrl: "https://pic1.zhimg.com/v2-0e5875681fabaee3e8fa7b2975d2f31b_r.jpg?source=1940ef5c"
     }, 
   ],
 
@@ -89,9 +65,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE: "江苏",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "惠州",
+  CITY: "句容",
 
   /** 重要节日相关 */
 
@@ -102,10 +78,10 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    {"type": "生日", "name": "沐阳", "year": "1998", "date": "08-26"},
+    {"type": "节日", "name": "恋爱纪念日", "year": "2022", "date": "03-22"},
+    {"type": "生日", "name": "黄钰", "year": "1996", "date": "03-30"},
+    {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "03-17"},
   ],
 
   /**
@@ -123,14 +99,9 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2015-05-01"},
-    // 结婚纪念日
-    {"keyword": "marry_day", date: "2020-01-04"},
-    // 退伍日, 不用可以删掉
-    {"keyword": "ex_day", date: "2022-08-31"},
-    // sakana日
-    // {"keyword": "sakana_day", date: "2022-01-06"},
-    // ... 
+    {"keyword": "love_day", date: "2022-03-22"},
+    // 上一次见面
+    {"keyword": "marry_day", date: "2022-06-27"},
   ],
 
   /** 插槽 */
@@ -140,15 +111,17 @@ export const config = {
     * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }} 
     * */
   SLOT_LIST: [
-    // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
       "申请成为你爱里的永久居民。",
       "你很傻，你很笨，可我还是很羡慕你，因为你有我",
       "遇见你，就好像捡到了100斤的运气",
-    ]},
+      "雨过天晴，终要好天气。世间予我千万种满心欢喜，沿途逐枝怒放，全部遗漏都不要紧，得你一支配我胸襟就好。",
+      "我们要沿着一切风景美丽的道路开过去，带着你最喜欢的人，把那些影子甩在脑后。去看无限平静的湖水，去看白雪皑皑的山峰，去看芳香四溢的花地，去看阳光唱歌的草原。去远方，而漫山遍野都是家乡。",
+      "我希望有个如你一般的人，贯彻未来，数遍生命的公路牌。",
+      "靠着树干坐下，头顶满树韶光，枝叶的罅隙里斜斜地透着记忆，落满一地思念。醒来拍拍裤管，向不知名的地方走去。",
+      "当时相对笑无声，天绕繁星。",
   ],
 
   /** 每日一言 */
