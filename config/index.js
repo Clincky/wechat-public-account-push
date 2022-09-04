@@ -18,7 +18,7 @@ export const config = {
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
    *    id: "Fooooollowed",
    *    // 你想对他发送的模板消息的模板ID
-   *    useTemplateId: "你如果想念一个人就会变成微风，轻轻掠过他的身边。就算他感觉不到，可这就是你全部的努力。人生就是这样子，每个人都变成各自想念的风。",
+   *    useTemplateId: "5iYGhlEXwO64KOuzTGb2lFl03liLN4wOMtj2uxrz9RM",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
    *    openUrl: "https://pic1.zhimg.com/v2-0e5875681fabaee3e8fa7b2975d2f31b_r.jpg?source=1940ef5c"
    *   }, 
@@ -46,7 +46,7 @@ export const config = {
    */
 
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "zjV1glIuCXo4Csr23aXWEio1iP74sZJ7IQEES95lDsg6c4yOU",
+  CALLBACK_TEMPLATE_ID: "5iYGhlEXwO64KOuzTGb2lFl03liLN4wOMtj2uxrz9RM",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -54,7 +54,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohx12OO6VskYv03Kuf43ywIZVRM4puXhk",
+      id: "on2va5-RSLvgQFYhTMNZwHc67RF0",
     }, 
   ],
     
@@ -122,15 +122,13 @@ export const config = {
       "我希望有个如你一般的人，贯彻未来，数遍生命的公路牌。",
       "靠着树干坐下，头顶满树韶光，枝叶的罅隙里斜斜地透着记忆，落满一地思念。醒来拍拍裤管，向不知名的地方走去。",
       "当时相对笑无声，天绕繁星。",
-      ]
+      ],
     }
   ],
 
   /** 每日一言 */
 
-  // 好文节选的内容类型
-  // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: ""
+
 
 
 }
